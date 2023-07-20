@@ -15,3 +15,4 @@ Email User: {email_add}
 """
     if button:
         send_email.send_email(content)
+        st.info('Your email was sent successfully!')
